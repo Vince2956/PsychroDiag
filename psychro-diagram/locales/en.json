@@ -1,4 +1,4 @@
 {
     "name": "Empty widget",
-    "description": "A empty widget to begin a new development (for developpers only)"
+    "description": "A widget for viewing temperature and humidity on the psychrometric diagram"
 }
