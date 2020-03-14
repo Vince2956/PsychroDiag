@@ -14,7 +14,9 @@ widgetViewModelCtor = function () {
 
         //toolbar API initialization
         self.widgetApi.toolbar({
-            activated: false
+            activated: true
+            displayTitle: true,
+            batteryItem: true
         });
         
         /* Custom code here */

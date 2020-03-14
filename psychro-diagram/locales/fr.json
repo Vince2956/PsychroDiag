@@ -1,4 +1,22 @@
 {
-   "name": "PsycrométricDiagram",
-   "description": "Un widget permettant de visualiser la température l'humidité sur le diagramme de l'air humide"
+   "name": "Psychrométrique",
+   "description": "Un widget permettant de visualiser la température l'humidité sur le diagramme de l'air humide",
+	"configurationSchema": {
+		"device": {
+			"name": "Donnée à afficher",
+			"description": "Selectionnez ici la donnée que vous souhaitez visualiser"
+		},
+      "precision": {
+			"name": "Précision d'affichage de la valeur",
+			"description": "Nombre de chiffres après la virgule"
+      },
+      "dateDisplay": {
+			"name": "Date de dernière mise à jour",
+			"description": ""
+      },
+      "automaticScale": {
+         "name": "Echelle automatique",
+         "description": "Le widget adapte automatiquement la valeur et l'unité"
+      }  
+	}
 }

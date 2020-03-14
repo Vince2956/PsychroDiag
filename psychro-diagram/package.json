@@ -1,5 +1,5 @@
 {
-    "type": "psycro-diagram",
+    "type": "psychro-diagram",
     "version": "1.1.0",
     "author": "Vincent Scaviner",
     "url": "https://linkToUrlHere.com",
@@ -13,5 +13,17 @@
             "x": 1,
             "y": 1
         }
+    },
+    "hasTitle": true,
+     "configurationSchema": {
+       "device": {
+         "type": "keyword",
+         "expectedKeywordType": "numeric",
+         "expectedKeywordAccess": "get"
+        },
+        "automaticScale": {
+          "type": "bool",
+          "defaultValue": "true"
+        }    
     }
 }
